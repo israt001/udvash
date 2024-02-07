@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Registration Number Or Password?</title>
+
+    <!-- For tailwind installation -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- For DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+
+    <!-- For customize config -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+
+      <!-- For font awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+      <!-- Font lato -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+        <!-- font bangla -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Noto+Sans+Bengali:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+        <style>
+            .font-lato{
+                font-family: 'Lato', sans-serif;
+            }
+
+            .font-bangla{
+                font-family: 'Lato', sans-serif;
+                font-family: 'Noto Sans Bengali', sans-serif;
+            }
+            .section-1-img {
+                width: 100%;
+            background: linear-gradient(180deg,
+            #ffffff56,
+            #ffffff77),
+        url("images/register-background.png");
+        background-size: cover;
+        }
+        </style>
+
+<body>
+    <body>
+        <header class="mx-auto ">
+            <div class="navbar bg-[#0C2D57] w-full">
+                <div class="navbar-start pl-12">
+                  <div class="dropdown flex lg:hidden">
+                    <label class="btn btn-circle swap swap-rotate  bg-[#FBFADA]">
+  
+                        <!-- this hidden checkbox controls the state -->
+                        <input type="checkbox" />
+                        
+                        <!-- hamburger icon -->
+                        <svg class="swap-off fill-[#436850] " xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg>
+                        
+                        <!-- close icon -->
+                        <svg class="swap-on fill-[#436850] " xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"/></svg>
+                        
+                      </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#436850] rounded-box w-52">
+                        <a class="hover:text-[#12372A] text-[#FBFADA] font-semibold cursor-pointer hover:bg-[#FBFADA] p-5">Udvash</a>
+                        <a class="hover:text-[#12372A] text-[#FBFADA] font-semibold cursor-pointer hover:bg-[#FBFADA] p-5">Unmesh</a>
+                        <a class="hover:text-[#12372A] text-[#FBFADA] font-semibold cursor-pointer hover:bg-[#FBFADA] p-5">Uttoron</a>
+                    </ul>
+                  </div>
+                  <button class="text-xl"><img src="images/Udvash-Logo.png" alt="" class=" lg:w-full pl-6"></button>
+                </div>
+                <div class="navbar-end hidden lg:flex pr-12">
+                    <div class="navbar-end flex flex-row">
+                        <a class="text-[#FBFADA] hover:text-[#0C2D57] font-semibold cursor-pointer hover:bg-[#F18A00] p-5 rounded-md">Udvash</a>
+                        <a class="text-[#FBFADA] hover:text-[#0C2D57] font-semibold cursor-pointer hover:bg-[#F18A00] p-5 rounded-md">Unmesh</a>
+                        <a class="text-[#FBFADA] hover:text-[#0C2D57] font-semibold cursor-pointer hover:bg-[#F18A00] p-5 rounded-md">Uttoron</a>
+                      </div>
+                </div>
+              </div>
+        </header>
+
+    <section class=" bg-[#fbfadad7] px-6 py-16 lg:py-28 section-1-img ">
+        <div class="flex flex-col lg:flex-row gap-20 justify-center items-center ">
+            <img src="images/for.png" alt="">
+            <div class="flex flex-col px-6 lg:px-16 py-12 lg:py-16 bg-[#F18A00] items-center rounded-3xl shadow-gray-700 shadow-lg text-[#FBFADA]">
+                <p class="font-bold lg:font-extrabold text-2xl lg:text-5xl text-[#0C2D57] py-0 lg:py-6 text-center">Register Now!</p>
+                <div class="w-full pt-10 lg:pt-5">
+                    <p class="text-base lg:text-lg font-semibold pb-1">Enter Your Mobile Number</p>
+                    <input type="number" value="" placeholder="XXXXXXXXXXXX" class="w-full text-sm lg:text-base p-2 border-gray-400 outline-none bg-[#FBFADA] text-[#436850]">
+                </div>
+                <div class="w-full pt-2 lg:pt-5">
+                    <p class="text-base lg:text-lg font-semibold pb-1">Enter Your Birth Certificate Number</p>
+                    <input type="number" value="" placeholder="XXXX XXXX XXXX" class="w-full text-sm lg:text-base p-2 border-gray-400 outline-none bg-[#FBFADA] text-[#436850]">
+                </div>
+                <button class="btn border-none bg-[#FBFADA] hover:bg-[#adac8881] text-[#436850] hover:text-[#FBFADA] text-base lg:text-lg w-5/12 lg:w-1/3 rounded-full lg:my-5 my-6 font-bold">Next</button>
+                <p class="py-4 text-sm lg:text-base text-center">Don't have a Registration Number? <a class=" cursor-pointer font-bold  text-[#E8C872]">Register Now.</a> It's Free.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-[#0C2D57] px-8 lg:px-24 pt-16 pb-6">
+        <div class="flex flex-col lg:flex-row w-full justify-between py-6 gap-10 lg:gap-0">
+            <div class="hidden lg:grid">
+                <img src="images/Udvash-Logo.png" alt="" class="w-max lg:w-full">
+            </div>
+            <div class="flex justify-center lg:hidden">
+                <img src="images/Udvash-Logo.png" alt="" class="w-max lg:w-full">
+            </div>
+            <div class="flex justify-evenly md:justify-evenly gap-6 md:gap-20 lg:gap-40">
+                <div class="text-[#F18A00] text-sm font-normal flex flex-col gap-2">
+                        <h6 class="font-bangla text-2xl font-semibold">Help</h6> 
+                        <a class="link link-hover">About Us</a>
+                        <a class="link link-hover">Branch List</a>
+                        <a class="link link-hover">Privacy Policy</a>
+                        <a class="link link-hover">Terms & Conditions</a>
+                </div>
+                <div class="text-[#F18A00] text-sm font-normal flex flex-col gap-2">
+                        <h6 class="font-bangla text-2xl font-semibold">Explore</h6> 
+                        <a class="link link-hover">Programs</a>
+                        <a class="link link-hover">Teacher Registration</a>
+                </div>
+            </div>
+            <div class="text-[#F18A00] text-sm font-normal flex flex-col gap-3 text-center">
+                    <h6 class="font-bangla text-2xl font-semibold">Get In Touch</h6> 
+                    <a>Address: Malek Tower (5th Floor), Opposite to <br>Farmgate Police Box, Farmgate, Dhaka-1215.</a>
+                    <a>Helpline: 09666775566</a>
+                    <a>Email: info@udvash-unmesh.com</a>
+                    <div class="flex flex-row items-center justify-evenly">
+                          <a href=""><i class="fa-brands fa-facebook rounded-full text-3xl"></i></a>
+                          <a href=""><i class="fa-brands fa-youtube rounded-full text-3xl"></i></a>
+                          <a href=""><i class="fa-brands fa-instagram rounded-full text-3xl"></i></a>
+                          <a href=""><i class="fa-brands fa-linkedin-in rounded-full text-3xl"></i></a>
+                    </div>
+            </div>
+        </div>
+        <div class="py-6 border-t border-[#F18A00]">
+            <p class="text-sm font-normal text-[#F18A00] text-center">Copyright © Udvash Academic & Admission Care. All rights reserved. 2024</p>
+          </div>
+    </footer>
+
+</body>
+</body>
